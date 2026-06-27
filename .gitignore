@@ -1,0 +1,27 @@
+# Large single-cell data files (exceed GitHub's 100MB/file limit) — keep on disk, not in git
+*.h5ad
+*.h5
+*.npy
+*.pt
+*.loom
+*.zarr/
+
+# Data staging + generated outputs
+data/
+outputs/
+
+# Generated figures / tables / logs
+*.png
+*.pdf
+*.csv
+slurm-*.out
+*.log
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS / editor cruft
+.DS_Store
+*.swp
